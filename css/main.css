@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body{
+	height: 100vh;
+	background-image: url(https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg) ; 
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
+
+.container{
+	background-color: rgba(31, 27, 27, 0.8);
+	border-radius: 20px;
+	padding: 2em;
+	margin: 2.6em;
+	position: absolute;
+}
+
+.container::before{
+	
+	opacity: 0.8;
+}
+
+#btnSubmit{
+	background-color: #DB3030;
+	color: #FFF;
+	display: inline-block;
+	    font-weight: 400;
+	    line-height: 1.25;
+	    text-align: center;
+	    white-space: nowrap;
+	    vertical-align: middle;
+	    user-select: none;
+	    border: 1px solid transparent;
+	    padding: .5rem 1rem;
+	    font-size: 1rem;
+	    border-radius: .25rem;
+}
+
+@media (min-width: 600px) {
+	.container {
+	    max-width: 600px;
+	  }
+}
